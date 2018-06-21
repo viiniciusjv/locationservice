@@ -1,4 +1,4 @@
-box: microsoft/dotnet:1.1.1-sdk
+box: microsoft/dotnet:2.0-sdk
 services:
    - id: postgres
      env:
@@ -90,7 +90,7 @@ deploy:
         cwd: $WERCKER_OUTPUT_DIR/app
         username: $USERNAME
         password: $PASSWORD
-        repository: dotnetcoreservices/locationservice
-        registry: https://registry.hub.docker.com
+        repository: viiniciusjv/locationservice
+        registry: https://registry.hub.docker.com/v2
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
         

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationService", "src\StatlerWaldorfCorp.LocationService\StatlerWaldorfCorp.LocationService.csproj", "{E050B7F4-B254-4CC5-B634-513B18148E57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationService.Integration", "test\StatlerWaldorfCorp.LocationService.Integration\StatlerWaldorfCorp.LocationService.Integration.csproj", "{A6387779-2ED1-4361-88FC-3D1593ED93AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationService.Tests", "test\StatlerWaldorfCorp.LocationService.Tests\StatlerWaldorfCorp.LocationService.Tests.csproj", "{88EBBF49-E921-42D1-8E59-3B5D55CE0E08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D3E5AB2-2949-4310-B616-1944BA125B01}"
+	ProjectSection(SolutionItems) = preProject
+		wercker.yml = wercker.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E050B7F4-B254-4CC5-B634-513B18148E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E050B7F4-B254-4CC5-B634-513B18148E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E050B7F4-B254-4CC5-B634-513B18148E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E050B7F4-B254-4CC5-B634-513B18148E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6387779-2ED1-4361-88FC-3D1593ED93AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6387779-2ED1-4361-88FC-3D1593ED93AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6387779-2ED1-4361-88FC-3D1593ED93AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6387779-2ED1-4361-88FC-3D1593ED93AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EBBF49-E921-42D1-8E59-3B5D55CE0E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EBBF49-E921-42D1-8E59-3B5D55CE0E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EBBF49-E921-42D1-8E59-3B5D55CE0E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EBBF49-E921-42D1-8E59-3B5D55CE0E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA96E64D-5051-4B2C-B2FC-DFEAE93921C8}
+	EndGlobalSection
+EndGlobal

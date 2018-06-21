@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace StatlerWaldorfCorp.LocationService.Migrations
 {
