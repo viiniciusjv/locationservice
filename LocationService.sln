@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationService.Tests", "test\StatlerWaldorfCorp.LocationService.Tests\StatlerWaldorfCorp.LocationService.Tests.csproj", "{EE755C10-AAF2-4977-B523-40F5DF57A258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationService", "src\StatlerWaldorfCorp.LocationService\StatlerWaldorfCorp.LocationService.csproj", "{BCAFB53A-4588-46BF-93AD-121B40C27AEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D85497F8-AB44-4644-8606-FD7E5C372A7E}"
+	ProjectSection(SolutionItems) = preProject
+		wercker.yml = wercker.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE755C10-AAF2-4977-B523-40F5DF57A258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE755C10-AAF2-4977-B523-40F5DF57A258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE755C10-AAF2-4977-B523-40F5DF57A258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE755C10-AAF2-4977-B523-40F5DF57A258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAFB53A-4588-46BF-93AD-121B40C27AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAFB53A-4588-46BF-93AD-121B40C27AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAFB53A-4588-46BF-93AD-121B40C27AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAFB53A-4588-46BF-93AD-121B40C27AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75DE04D1-DEEC-4FD5-8922-9353578057F1}
+	EndGlobalSection
+EndGlobal
