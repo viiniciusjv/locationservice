@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
+using System;
 
 namespace StatlerWaldorfCorp.LocationService
 {
@@ -8,6 +9,7 @@ namespace StatlerWaldorfCorp.LocationService
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("##Program");
 			IConfiguration config = new ConfigurationBuilder()
 							.AddCommandLine(args)
 							.Build();
