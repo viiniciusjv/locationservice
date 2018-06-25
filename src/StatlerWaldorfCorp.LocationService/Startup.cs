@@ -19,6 +19,7 @@ namespace StatlerWaldorfCorp.LocationService {
 
         public Startup(IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            //Testing deploy
             var builder = new ConfigurationBuilder()
                 .SetBasePath(System.IO.Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional:true)
