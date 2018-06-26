@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "StatlerWaldorfCorp.LocationService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://*:5123"
+      }
+    }
+  }
+}
